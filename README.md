@@ -5,11 +5,14 @@
 
 # H2 Communication Contract
 To **REQUEST** data from the microservice:
+
 1. Ensure you have requests installed on local drive
 2. Make an HTTP GET request using http://localhost/fact as the URL, saving it in a variable
 
 **Example**
+
 `URL = "http://127.0.0.1:5000/fact"`
+
 `response = requests.get(URL)`
 
 To **RECEIVE** data from the microservice:

@@ -9,7 +9,7 @@ To **REQUEST** data from the microservice:
 2. Make an HTTP GET request using http://localhost/fact as the URL, saving it in a variable
 
 **Example**
-`URL = "http://127.0.0.1:5000/fact"
+`URL = "http://127.0.0.1:5000/fact"\n
 response = requests.get(URL)`
 
 To **RECEIVE** data from the microservice:

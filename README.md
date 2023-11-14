@@ -19,3 +19,6 @@ To **RECEIVE** data from the microservice:
 1. The response that you saved from the GET request is a JSON object. Call .json() on it and parse the data to extract only the desired fact
 
 `fact = response.json()["data"][0]["attributes"]["body"]`
+
+# H2 UML Sequence Diagram
+<img width="406" alt="image" src="https://github.com/samantha-jarrah/dog-fact-microservice/assets/99986399/d9c85fb6-34b1-40c0-92ae-831e713c8e66">

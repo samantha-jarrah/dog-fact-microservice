@@ -1,9 +1,9 @@
-# H1 Dog Fact Microservice
+# Dog Fact Microservice
 
 *This is a microservice that returns a random dog fact*
 ---
 
-# H2 Communication Contract
+# Communication Contract
 To **REQUEST** data from the microservice:
 
 1. Ensure you have requests installed on local drive
@@ -20,5 +20,5 @@ To **RECEIVE** data from the microservice:
 
 `fact = response.json()["data"][0]["attributes"]["body"]`
 
-# H2 UML Sequence Diagram
+# UML Sequence Diagram
 <img width="1163" alt="image" src="https://github.com/samantha-jarrah/dog-fact-microservice/assets/99986399/20270b5a-8b0a-4834-9af8-e1e6d6be7e99">

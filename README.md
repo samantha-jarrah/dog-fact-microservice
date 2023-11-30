@@ -21,4 +21,4 @@ To **RECEIVE** data from the microservice:
 `fact = response.json()["data"][0]["attributes"]["body"]`
 
 # H2 UML Sequence Diagram
-<img width="406" alt="image" src="https://github.com/samantha-jarrah/dog-fact-microservice/assets/99986399/d9c85fb6-34b1-40c0-92ae-831e713c8e66">
+<img width="1163" alt="image" src="https://github.com/samantha-jarrah/dog-fact-microservice/assets/99986399/20270b5a-8b0a-4834-9af8-e1e6d6be7e99">
